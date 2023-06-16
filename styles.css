@@ -1,0 +1,91 @@
+.mainframe{
+    display: grid;
+    grid-template-columns: repeat(100, 1vw);
+    grid-template-rows: repeat(100,1vh);
+    width: 100vw;
+    height: 100vh;
+}
+.one{
+    background: lightcoral;
+    grid-column-start: 1;
+    grid-column-end: 50;
+    grid-row-start: 1;
+    grid-row-end: 50;
+}
+.two{
+    background: lightblue;
+    grid-column-start: 50;
+    grid-column-end: 100;
+    grid-row-start: 1;
+    grid-row-end: 50;
+}
+.three{
+    background: lightseagreen;
+    grid-column-start: 1;
+    grid-column-end: 50;
+    grid-row-start: 50;
+    grid-row-end: 100;
+}
+.four{
+    background: lightgoldenrodyellow;
+    grid-column-start: 50;
+    grid-column-end: 100;
+    grid-row-start: 50;
+    grid-row-end: 100;
+}
+.oneX{
+    background: lightblue;
+    grid-column-start: 25;
+    grid-column-end: 50;
+    grid-row-start: 25;
+    grid-row-end: 50;
+}
+.twoX{
+    background: lightcoral;
+    grid-column-start: 50;
+    grid-column-end: 75;
+    grid-row-start: 25;
+    grid-row-end: 50;
+}
+.threeX{
+    background: lightgoldenrodyellow;
+    grid-column-start: 25;
+    grid-column-end: 50;
+    grid-row-start: 50;
+    grid-row-end: 75;
+}
+.fourX{
+    background: lightseagreen;
+    grid-column-start: 50;
+    grid-column-end: 75;
+    grid-row-start: 50;
+    grid-row-end: 75;
+}
+.oneX1{
+    background: lightcoral;
+    grid-column-start: 40;
+    grid-column-end: 50;
+    grid-row-start: 40;
+    grid-row-end: 50;
+}
+.twoX1{
+    background: lightblue;
+    grid-column-start: 50;
+    grid-column-end: 60;
+    grid-row-start: 40;
+    grid-row-end: 50;
+}
+.threeX1{
+    background: lightseagreen;
+    grid-column-start: 40;
+    grid-column-end: 50;
+    grid-row-start: 50;
+    grid-row-end: 60;
+}
+.fourX1{
+    background: lightgoldenrodyellow;
+    grid-column-start: 50;
+    grid-column-end: 60;
+    grid-row-start: 50;
+    grid-row-end: 60;
+}
